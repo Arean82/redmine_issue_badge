@@ -43,7 +43,7 @@ Redmine::Plugin.register :redmine_issue_badge do
     description 'Plugin to show the number of assigned issues with badge on top menu.'
     version '1.0.0'
     url 'https://github.com/akiko-pusu/redmine_issue_badge'
-    author_url 'http://twitter.com/akiko_pusu'
+    author_url 'https://github.com/Arean82/redmine_issue_badge.git'
     requires_redmine version_or_higher: '5.0'
 
     settings partial: 'settings/redmine_issue_badge',
